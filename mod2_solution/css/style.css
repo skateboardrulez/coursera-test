@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	font-family: cursive, Arial;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 3% 0;
+	color: red;	
+	font-size: 1.75rem;
+}
+
+h3 {
+	padding: 7px 10%;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	float: right;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+p {
+	clear: right;
+	padding: 10px;
+}
+
+.orig {
+	background-color: green;
+	color: white;
+	text-align: justify;
+	margin: 1.5%;
+	border: 1px solid black;
+}
+
+.row {
+	display: inline-block;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+	color: black;
+}
+
+.gray {
+	background-color: gray;
+}
+
+/******** Large device ********/
+@media (min-width: 992px) {
+		.col-lg-4 {
+			float: left;
+			width: 30%;
+		}
+}
+
+/******** Medium device ********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 47%;
+		float: left;
+	}
+
+	.col-md-12 {
+		float: left;
+	}
+}
+
+
+
